@@ -1,0 +1,65 @@
+
+.header1 {
+  display: table;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  background: url(./img/bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header2 {
+  display: table;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  background: url(./img/bg2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+  margin: 0 0 50px;
+  padding: 50px;
+  font-size: 200px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* ---------------add--------------- */
+.services {
+  background: #7fbbda;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+.green-info {
+  background: #8DCF3F;
+  padding: 50px 0;
+  color: #ffffff;
+}
+.pink-info {
+  background: #F58E7E;
+  padding: 50px 0;
+  color: #ffffff;
+}
+.orange-info {
+  background: #FDC44F;
+  padding: 50px 0;
+  color: #ffffff;
+}
+/* グリッド内でセンタリングするためのCSS  */
+.row-center{
+text-align:center;
+letter-spacing:-0.4em;
+}
+.row-center > [class*='col-'] {
+display:inline-block;
+letter-spacing:0;
+vertical-align:top;
+float:none !important;
+}

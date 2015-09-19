@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hayashi Web</title>
+    <link rel="stylesheet" type="text/css" href="my_css.css" >
+    <!-- Bootstrap -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+  </head>
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+        <a class="navbar-brand" href="#">HAYASHI PROFILE</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Skil">Skil</a></li>
+            <li><a href="#History">History</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+ 	<div class="header1">
+    	<h1>Page 1</h1>
+	</div>
+
+<!-- 自己紹介 -->
+  <div class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4 text-center">
+          <h2>自己紹介</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row row-center">
+        <div class="col-md-4 col-md-offset-2">
+          <img src="./img/profile.jpeg" class="img-full img-circle"  width="200" height="200">
+          <h4>はやし</h4>
+          <h4>林 真史</h4>  
+        </div><!-- col-xs-6 -->
+        <div class="col-md-6  text-left">
+        <p class="lead">筑波大学情報メディア創成学類３年の林です。</p>
+        <p class="lead">現在は、つくば市春日在住です。</p>
+        <br/>
+        <p class="lead">Javaを中心にWeb系の開発をしています。</p>
+        <p class="lead">現在は幅広げるために様々なことに挑戦中</p>
+        <br/>
+        <p class="lead"><a href="#webservice">ブログやTwitter</a>もやっています。</p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pink-info">
+  </div>
+<!-- 履歴書 -->
+  <div id="timeline">
+    <ul id="dates">
+        <li><a href="#2012">2012</a></li>
+        <li><a href="#2013">2013</a></li>
+        <li><a href="#2014">2014</a></li>
+    </ul>
+    <ul id="issues">
+        <li id="2012">
+          <div class="row　row-center">
+              <h1>2012年</h1>
+              <div class="col-md-6  col-md-offset-3　text-cnter">
+              <p>東京スカイツリーが開業</p>
+              <p>ロンドンオリンピック開催、史上最多のメダル獲得</p>
+              <p>ノーベル生理学・医学賞に京都大学教授山中伸弥が受賞</p>
+              </div>
+          </div> 
+        </li>
+        <li id="2013">
+            
+            <h1>2013年</h1>
+            <p>ＴＰＰ交渉参加を表明</p>
+            <p>長嶋茂雄氏と松井秀喜氏に国民栄誉賞</p>
+        </li>
+        <li id="2014">
+            
+            <h1>2014年</h1>
+            <p>本田圭佑セリエＡデビュー</p>
+            <p>マー君ヤンキースへ</p>
+        </li>
+    </ul>
+    <div id="grad_left"></div>
+    <div id="grad_right"></div>
+    <a id="next">+</a>
+    <a id="prev">-</a>
+  </div>
+
+  <div class="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.timelinr-0.9.54.js"></script>
+    <script>
+    $(function(){
+      $().timelinr();
+    });
+
+    $(function(){
+        $().timelinr({
+            arrowKeys: 'true',
+            autoPlayDirection: 'forward'
+        })
+    });
+  </script> 
+  
+  </body>
+</html>
