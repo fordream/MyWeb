@@ -30,7 +30,7 @@ h1{
   font-weight: bold;
 }
 
-/* ---------------add--------------- */
+/* 背景色 */
 .services {
   background: #7fbbda;
   padding: 50px 0;
@@ -52,6 +52,13 @@ h1{
   padding: 50px 0;
   color: #ffffff;
 }
+
+.contact-info {
+  color: #ffffff;
+  background: #0a5175;
+  padding: 50px 0;
+}
+
 /* グリッド内でセンタリングするためのCSS  */
 .row-center{
 text-align:center;
