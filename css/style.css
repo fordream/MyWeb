@@ -31,7 +31,7 @@ h1,h2,h4,h5,h6 {
 	margin-bottom: 5px;
 }
 	h1 {
-		font-size: 18px;
+		font-size: 36px;
 	}
 	h2 {
 		font-size: 14px;
@@ -70,12 +70,12 @@ h1,h2,h4,h5,h6 {
 				#dates .selected {
 			        font-size: 38px;
 				}
-		
+
 		#issues {
 			width: 800px;
 			height: 500px;
 			overflow: hidden;
-		}	
+		}
 			#issues li {
 				width: 800px;
 				height: 350px;
@@ -93,13 +93,13 @@ h1,h2,h4,h5,h6 {
 					float: left;
 					margin: 10px 30px 10px 50px;
 					background: transparent;
-					-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
-					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
+					-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */
+					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */
 					zoom: 1;
 					-webkit-transition: all 2s ease-in-out;
 					-moz-transition: all 2s ease-in-out;
 					-o-transition: all 2s ease-in-out;
-					-ms-transition: all 2s ease-in-out; 
+					-ms-transition: all 2s ease-in-out;
 					transition: all 2s ease-in-out;
 					-webkit-transform: scale(0.7,0.7);
 					-moz-transform: scale(0.7,0.7);
@@ -120,7 +120,7 @@ h1,h2,h4,h5,h6 {
 					line-height: 22px;
 					text-shadow: #000 1px 1px 2px;
 				}
-		
+
 		#grad_left,
 		#grad_right {
 			width: 100px;
@@ -130,13 +130,13 @@ h1,h2,h4,h5,h6 {
 		}
 			#grad_left {
 		        left: 0;
-		        
+
 			}
 			#grad_right {
 		        right: 0;
 
 			}
-		
+
 		#next,
 		#prev {
 			position: absolute;
