@@ -43,7 +43,7 @@ h1,h2,h4,h5,h6 {
 
 	#timeline {
 		width: 800px;
-		height: 350px;
+		height: 500px;
 		overflow: hidden;
 		margin: 100px auto;
 		position: relative;
@@ -73,7 +73,7 @@ h1,h2,h4,h5,h6 {
 		
 		#issues {
 			width: 800px;
-			height: 350px;
+			height: 500px;
 			overflow: hidden;
 		}	
 			#issues li {
