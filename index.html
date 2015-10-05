@@ -42,6 +42,8 @@
     <br>
     <br>
     <br>
+    <br>
+    <br>
     	<h1>Welcome HAYASHI WEB!!!</h1>
 	</div>
 
@@ -132,9 +134,9 @@
               <img src="img/none.png" width="200" height="256" />
               <p>大学３年生：新しい技術に挑戦し、深めたい分野を探すのを目標に頑張り中</p>
               <p>4月~6月:C言語でSqliteのような簡単なデータベースを作る</p>
-              <p>7月~8月:cocos2d-xを利用してゲームを作成、コンテストへ出場。結果はダメでした</p>
+              <p>7月~8月:cocos2d-xを利用してゲームを作成、コンテストへ出場。結果はダメだったが、自分でチームを作って開発した経験は身になった。</p>
               <p>9月~10月:サマーインターン２社へ行き、pythonでDjangoを、rubyでrailsを扱ってwebアプリを作る。またそれと同時にベンチャー起業でアルバイトを始める。
-                言語はobjective-c</p>
+                使っている言語はobjective-c</p>
             </div>
           </li>
       </ul>
@@ -145,12 +147,12 @@
     </div>
   </div>
 </div>
-
+<div id="contact">
   <div class="contact-info">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <h2>Contact Me!</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <h2>Contact Me!</h2>
             <ul class="list-inline">
               <!-- <li><i class="fa fa-facebook fa-3x"></i></li> -->
               <div align="center">
@@ -163,7 +165,9 @@
           </div>
         </div>
       </div>
+    </div>
   </div>
+</div>
   <div class="">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -179,6 +183,18 @@
             autoPlayDirection: 'forward'
         })
     });
+    $(function(){
+      $('ul.nav li a').click(function(){
+        var speed = 300;
+        var href= $(this).attr("href");
+        // var target = $(href == "#" || href == "" ? 'html' : href);
+        // var position = target.offset().top;
+        var position = $(href).offset().top;
+        $("html, body").animate({scrollTop:position}, speed, "swing");
+        return false;
+      });
+    });
+
   </script>
 
   </body>
